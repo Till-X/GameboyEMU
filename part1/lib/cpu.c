@@ -57,7 +57,13 @@ static void fetch_data(){
 }
 
 static void execute(){
-    printf("NOT executing yet...\n");
+    IN_PROC proc = inst_get_processor(ctx.cur_inst->type);
+
+    if (!proc) {
+        NO_IMPL
+    }
+
+    proc(&ctx);
 }
 
 bool cpu_step() {
