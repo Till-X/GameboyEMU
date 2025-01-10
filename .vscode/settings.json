@@ -1,5 +1,14 @@
 {
     "files.associations": {
-        "cpu.h": "c"
-    }
+        "cpu.h": "c",
+        "bit": "cpp",
+        "cmath": "cpp",
+        "compare": "cpp",
+        "concepts": "cpp",
+        "type_traits": "cpp",
+        "limits": "cpp",
+        "new": "cpp",
+        "typeinfo": "cpp"
+    },
+    "cmake.sourceDirectory": "/home/banana/Documents/GameBoy/my_work/part1"
 }
